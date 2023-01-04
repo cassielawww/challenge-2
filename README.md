@@ -35,6 +35,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - added media query section to make page responsive
 
 ## Screenshot
+![Challege-2-one](https://user-images.githubusercontent.com/48407721/210671911-20902a1d-a2b1-44be-a3c0-6f5dbc51e2e8.PNG)
+![Challege-2-two](https://user-images.githubusercontent.com/48407721/210671948-749a924d-b2a1-4af7-90a0-925a5fa213bc.PNG)
+![Challege-2-three](https://user-images.githubusercontent.com/48407721/210671961-20c43788-285f-4582-acab-fbe42acfb940.PNG)
+![Challege-2-four](https://user-images.githubusercontent.com/48407721/210671972-04b06713-cde7-4b8e-9b5c-022d4c8f3b8d.PNG)
+![Challege-2-fifth](https://user-images.githubusercontent.com/48407721/210671982-82417ec5-b1cd-49d5-976b-4473a0fa4306.PNG)
 
 ## Deployment link
 https://cassielawww.github.io/challenge-2/ 
