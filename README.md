@@ -29,9 +29,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ### CSS
 - added styling for different sections:
-> Body
-> Header / Hero
-> Footer, etc
+ > Body
+ > Header / Hero
+ > Footer, etc
 - added media query section to make page responsive
 
 ## Screenshot
