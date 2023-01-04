@@ -21,3 +21,20 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ## Code used
 ### HTML
+- linked stylesheets and specified title
+- created Hero as header and added navigation bar
+- added 'About Me' section
+- added projects with placeholder images and links
+- added social icons on Footer
+
+### CSS
+- added styling for different sections:
+> Body
+> Header / Hero
+> Footer, etc
+- added media query section to make page responsive
+
+## Screenshot
+
+## Deployment link
+https://cassielawww.github.io/challenge-2/ 
