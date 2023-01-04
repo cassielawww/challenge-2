@@ -1,0 +1,238 @@
+/*General styling for main sections*/
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+section {
+    background-color: white;
+}
+
+.hero {
+    background-color: #1a1a1a;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Hero and top navigation bar*/
+
+ul{
+ display: flex;
+ list-style-type: none;
+ width: 500px;
+ justify-content: space-around;
+ font-size: 30px;
+}
+
+ul.show {
+    display: block;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 5;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    margin: 10;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+.hero-center {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 120px;
+}
+
+
+.button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px; 
+    background-color: #ff4d5a;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+
+}
+
+.button:hover {
+    background-color: #ff828b;
+
+}
+
+.button:active {
+    background-color: #a9a9a9;
+    color: #161616;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*About Me Section*/
+
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+
+/*Projects Section*/
+p.project-text, p.project-text-button {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.project-text-button:hover {
+    background-color: #ff828b;
+
+}
+
+.project-text-button:active {
+    background-color: #a9a9a9;
+    color: #161616;
+}
+
+
+.individual-project {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.content-section-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.selfImage {
+    width: 400px;
+    position: relative;
+    top: 50px;
+    border-radius: 180px;
+}
+
+.selfImage-container {
+    display: flex;
+    align-items: center;
+}
+
+.individual-project {
+    width: 300px;
+    height: 500px;
+    box-shadow: 2px 2px 10px #ff4d5a;
+    margin: 20px;
+}
+
+.individual-project-large {
+    width: 1300px;
+    height: 380px;
+    box-shadow: 2px 2px 10px #ff4d5a;
+    margin: 20px;
+}
+
+.project-container, .project-container-large {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-images {
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 150px;
+}
+
+hr {
+   margin: 20px;
+}
+
+/*Footer Section*/
+
+.all-socials {
+    padding-bottom: 120px;
+}
+
+
+.logo {
+    height: 80px;
+    margin: 20px;
+} 
+
+.individual-social {
+    margin: 10px;
+}
+
+
+
+
+/*Media Query only*/
+
+
+@media only screen and (max-width: 768px){
+
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        align-items: flex-start;
+        flex-direction: column-reverse;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .all-socials {
+        flex-direction: column-reverse;
+    }     
+
+    #myInfo-id p{
+        font-size: 26px;
+        font-weight: 300;
+        height: 100%;
+    }   
+
+    #self-Image-container-id {
+        display: none;
+
+}
+}
